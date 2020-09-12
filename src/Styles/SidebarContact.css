@@ -1,0 +1,20 @@
+.sdiebarContact {
+  display: flex !important;
+  align-items: center;
+  color: #7e627e;
+  /* line-height: 0.5px !important; */
+  text-decoration: none !important;
+}
+.sdiebarContact:focus,
+.sdiebarContact:visited .sdiebarContact:link,
+a:link,
+a:visited {
+  text-decoration: none !important;
+}
+.sdiebarContact:hover {
+  color: white;
+  cursor: pointer;
+}
+.sdiebarContact > h4 {
+  margin-left: 20px;
+}
